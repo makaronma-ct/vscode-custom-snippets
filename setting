@@ -1,0 +1,128 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-ui-snippets.showNotesOnStartup": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svgviewer.transparencygrid": false,
+  "svg.preview.mode": "svg",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "powermode.combo.location": "off",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.duration": 100,
+  "powermode.explosions.frequency": 1,
+  "typescriptHero.imports.multiLineTrailingComma": false,
+  "typescriptHero.imports.multiLineWrapThreshold": 1000,
+  "html.format.wrapLineLength": 1000,
+  "editor.wordWrapColumn": 120,
+  "tabnine.experimentalAutoImports": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "MYTODO"
+  ],
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/*"],
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "json.schemas": [],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules"],
+  "workbench.colorTheme": "Solarized Light+",
+  "react-native.packager.port": 19001,
+
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML",
+    "typesciprt": "typescript"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "headwind.runOnSave": false,
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+
+  "explorer.fileNesting.patterns": {
+    ".env": ".env.*",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "next.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, next-env.d.ts, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+    "app.json": "app.config.ts, app.config.js, eas.json, babel.config.js, .babelrc*, metro.config.js, .svgrrc, tailwind.config.js",
+    "codegen.yml": "graphql.schema.json, schema.graphql",
+    "tsconfig.json": ".prettierrc, .eslintrc.*",
+    "package.json": ".node-version, .nodemon*, .npm*, package-lock.json, package.nls*.json, yarn*, pnpm-lock.yaml",
+    "readme*": "authors, backers*, changelog*, citation*, code_of_conduct*, codeowners, contributing*, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors*"
+  },
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+
+  "git.mergeEditor": false,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+
+  "window.zoomLevel": 2,
+  "vscode-pets.position": "explorer",
+  "vscode-pets.petColor": "yellow",
+  "vscode-pets.petSize": "medium",
+  "highlight.regexes": {
+    "(use\\w+(\\(|<))": {
+      "decorations": [
+        {
+          // "fontWeight": "550",
+          "backgroundColor": "#f1e7b5",
+          "color": "#0E1318"
+          // "borderWidth":"1px",
+          // "borderColor":"#e4bf1b",
+          // "borderStyle":"solid"
+        }
+      ]
+    },
+    "(console.log)": {
+      "decorations": [
+        {
+          // "backgroundColor": "",
+          // "color": "#0E1318"
+          "borderWidth":"2px",
+          "borderColor":"#e4bf1b",
+          "borderStyle":"solid"
+        }
+      ]
+    }
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
+}
