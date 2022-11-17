@@ -47,8 +47,9 @@
 
   "json.schemas": [],
   "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
-  "todo-tree.filtering.excludeGlobs": ["**/node_modules"],
-  "workbench.colorTheme": "Solarized Light+",
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules"
+  ],
   "react-native.packager.port": 19001,
 
   "tailwindCSS.includeLanguages": {
@@ -121,8 +122,19 @@
           "borderStyle":"solid"
         }
       ]
+    },
+    "(icon)": {
+      "decorations": [
+        {
+          "borderWidth":"2px",
+          "borderColor":"#c2bbc3",
+          "borderStyle":"solid",
+        }
+      ]
     }
   },
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Solarized Light+",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }
